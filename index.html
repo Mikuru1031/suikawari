@@ -17,5 +17,11 @@
             </div>
         </div>
         <script src="./assets/script.js"></script>
+        <script>
+            document.addEventListener('touchend', function (event) {
+                event.preventDefault();
+                $(event.target).trigger('click');
+            }, false);
+        </script>
     </body>
 </html>
