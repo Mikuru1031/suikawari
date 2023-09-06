@@ -1,2 +1,11 @@
 @media (max-width: 670px) {
+    body {
+        font-size: 18px;
+        margin-top: 3cm;
+    }
+
+    .container {
+        width: 90%;
+        height: 300px;
+    }
 }
