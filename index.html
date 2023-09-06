@@ -18,10 +18,7 @@
         </div>
         <script src="./assets/script.js"></script>
         <script>
-            document.addEventListener('touchend', function (event) {
-                event.preventDefault();
-                $(event.target).trigger('click');
-            }, false);
+            document.addEventListener("dblclick", function(e){ e.preventDefault();}, { passive: false });
         </script>
     </body>
 </html>
