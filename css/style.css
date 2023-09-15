@@ -1,0 +1,39 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    text-align: center;
+    margin-top: 4cm;
+    font-size: 20px;
+}
+
+.container {
+    display: inline-block;
+    background-color: whitesmoke;
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.6);
+}
+
+h1 {
+    font-weight: normal;
+    margin-bottom: 1cm;
+}
+
+.moveButtons {
+    text-align: center;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: large;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+#distance {
+    color: red;
+}
