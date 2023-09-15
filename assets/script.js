@@ -6,6 +6,7 @@ const outputDistance = document.querySelector("#distance");
 
 let player_x = Math.floor(Math.random() * 5);
 let player_y = Math.floor(Math.random() * 5);
+
 let suika_x = Math.floor(Math.random() * 5);
 let suika_y = Math.floor(Math.random() * 5);
 
